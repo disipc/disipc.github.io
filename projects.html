@@ -6,7 +6,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Disip - Projects</title>
+<title>Disip - Other Projects</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -20,8 +20,8 @@
 <div class="menu-item"><a href="https://linkedin.com/in/disip">LinkedIn</a></div>
 
 <div class="menu-category">Academics</div>
-<!-- <div class="menu-item"><a href="research.html">Research</a></div> -->
-<div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Other Projects</a></div>
 <div class="menu-item"><a href="courses.html">Courses</a></div>
 <div class="menu-category">Work<br>Experience</div>
 <div class="menu-item"><a href="position.html">Institute<br>Positions</a></div>
@@ -33,18 +33,30 @@
 
 <td id="layout-content">
 <div id="toptitle">
-<h1>Disip - About</h1>
-<div id="subtitle">Fourth Year Undergrad <br /> <a href="http://www.iitb.ac.in/mems/en">Department of Metallurgical Engineering & Material Science</a><br /> <a href="http://www.iitb.ac.in">Indian Institute of Technology Bombay</a></div>
+<h1>Other Projects</h1>
 </div>
 
-<p> I utilise most of my free time working and educating myself about the robotics and controls. <br />
-Here is a comprehensive list of the projects I am working on or have taken up while my time <br />
-at IIT-B. I have worked on a bunch of technical & research projects involving drones.</p>
+<h3>Multi Target Tracking using CPHD filters</h3>
+<p>Details coming soon.</p>
 
+<h3>Formation Tracking Control of Multi-UAV system via Game-Theoretical RL</h3>
+<p>Details coming soon.</p>
 
-<h2>Research Experience</h2>
-<h3> Fault Detection in Robotic Swarms | Prof. Giovanni Beltrame</h3>
+<h3>Model Predictive Control (MPC) based guidance for Spacecraft Docking</h3>
+<p>Details coming soon.</p>
 
+<h3>Attitude and Vibration Control of a Flexible Spacecraft with Variable-speed Control Moment Gyroscopes</h3>
+<p>Details coming soon.</p>
+
+<h3>Adaptive Control for an Unmanned Aerial Vehicle | Adaptive Control Theory, Prof. Srikant Sukumar</h3>
+<p>
+For the course on Adaptive Control Theory, our team of 3 studied the formulation of the adaptive backstepping method and<br/> 
+it's implementation to control the longitudinal flight dynamics (Flight Path Angle &amp; Veloctiy) of a fixed wing UAV under the<br/> 
+constraint of thrust saturation as presented in the scientific paper by <a href="https://arc.aiaa.org/doi/pdf/10.2514/1.G000028"><i> F. Gavilan et. al., “Adaptive Control for Aircraft Longitudinal<br/>
+Dynamics with Thrust Saturation”, JOURNAL OF GUIDANCE, CONTROL, AND DYNAMICS Vol. 38, No. 4, April 2015</i></a>. 
+</p>
+
+<h3>Fault Detection in Robotic Swarms &amp; Setup of Spiri | Prof. Giovanni Beltrame</h3>
 <table class="imgtable"><tr><td>
 <a href="images/mistlab.jpg"><img src="images/mistlab.jpg" alt="250px" width="250px" height="Image" /></a><br>
 <figcaption><center>Working at MISTLAB</center></figcaption>
@@ -60,6 +72,17 @@ for multi-agent robotic systems and used it to dectect faults in robotic swarms.
 <p>We are working to build on their work to come up with a strategy to classify the detected faults on a swarm of <br/>
 KheperaIVs. I integrated the cross regulation model developed for E-pucks with the Khepera IV ARGoS3 Model.<br/> 
 We intend to the extend the study to include more types of anomalies for differenr robots and environments.</p>
+
+<p>Spiri is an autonomous drone equipped with Nvidia TX1/TX2 and stereo vision cameras that uses the Pixracer<br/> 
+flight controller. The on-board computer runs an Ubuntu 16.04 with ROS-Kinetic. The internship at Mistlab <br/>
+involved setting up of the drone for formation flights along with other drones already being used in the lab.<br/></p>
+
+<p>
+The setup required loading the TX1 with the necessary packages including ROSBuzz. A Hardware-in-the-loop<br/>
+simulation (HITL) followed to test the real flight controller hardware with the actual flight code(ROSBuzz). <br/>
+Gazebo is connected to QGroundControl(Mission Planning software) via UDP that bridges its MAVLink<br/>
+messages to PX4. Later, the Mavros/Custom Modes for the PX4 flight stack were figured out for the ROSBuzz node.
+</p>
 </td>
 </tr></table>
 
@@ -83,33 +106,12 @@ and testing of mechanical properties of the material films.</p>
 </td>
 </tr></table>
 
-<h2>Technical Experience</h2>
+<h2>Undergraduate Projects</h2>
 <br/>
 <p>The team EXO-FLY at IIT-B has been working for quite sometime on the development of a compact flying technology <br/>
 for the Boeing sponsored competition Go-Fly. The control system has yet to be developed for the proposed on-paper<br/>
 design for the vehicle. I have recently started working under the guidance of Prof. Srikant Sukumar. I am working on <br/>
 modelling the system dynamics of the vehicle. Later, we intend to develop the control system for the same.</p>
-
-<h3>Setup of Spiri - Drone by Pleaides Robotics</h3>
-<table class="imgtable"><tr><td>
-<a href="images/spiri.jpg"><img src="images/spiri.jpg" alt="250px" width="250px" height="Image" /></a><br>
-<figcaption><center>The Spiri I was working with.</center></figcaption>
-<figcaption><center>I got to name it <a href"https://en.wikipedia.org/wiki/Valmiki">Valmiki</a> after the project.</center></figcaption>
-</td>
-<td align="center">
-<p><b> Duration: May' 2018 - Jul' 2018</b></p>
-<p>Spiri is an autonomous drone equipped with Nvidia TX1/TX2 and stereo vision cameras that uses the Pixracer<br/> 
-flight controller. The on-board computer runs an Ubuntu 16.04 with ROS-Kinetic. The internship at Mistlab <br/>
-involved setting up of the drone for formation flights along with other drones already being used in the lab.<br/></p>
-
-<p>
-The setup required loading the TX1 with the necessary packages including ROSBuzz. A Hardware-in-the-loop<br/>
-simulation (HITL) followed to test the real flight controller hardware with the actual flight code(ROSBuzz). <br/>
-Gazebo is connected to QGroundControl(Mission Planning software) via UDP that bridges its MAVLink<br/>
-messages to PX4. Later, the Mavros/Custom Modes for the PX4 flight stack were figured out for the ROSBuzz node.
-</p>
-</td>
-</tr></table>
 
 <h3>Quadrotor 3D Planning and Navigation</h3>
 <p><b> Duration: May' 2017 - Jun' 2017</b></p>
@@ -167,15 +169,6 @@ my first course in Spring'17. Later, I started working on acquainting myself wit
 
 
 
-<!--
-<ul>
-<li><p>Directed efforts to design & fabricate Ornithopter (bio-mimetic drone that achieves flight by means of flapping wings)<br/>  for
-surveillance from high altitudes and long operational distance</p></li>
-<li><p>Affiliated to Aerodynamics subsystem designing wings and fuselage that render the most stabilized flight</p>
-<li><p>Worked on feedback control loop to ensure thrust efficient maneuverability</p>
-</li>
-</ul>
--->
 <h3>Midget Jet Engine | <a href="http://tech-iitb.org/aeromodelling-club"><u> Institude Aeromodelling Club</u></a>,IIT-B</h3>
 <ul>
 <li><p>Acquired knowledge of Combustion Chambers and Jet propulsion & constructed a miniature Jet Engine</p>
@@ -185,41 +178,6 @@ using steel cans and sheets, where output was ignited with propane to generate t
 </li>
 </ul>
 
-<!--<ul>
-<li><p>Working to develop spherical robot for the purpose of reconnaissance and exploration, controlled using App</p>
-</li>
-<li><p>Designing compatible circuitry and vision based feedback control loop to ensure robust and stable motion</p>
-</li>
-<li><p>Building custom flexible and transparent polymer shell to make robot resilient enough to make it throw-able</p>
-</li>
-</ul>
-<h3>Environmental Sensing using Quadrotor | Prof. Leena Vachhani</h3>
-<ul>
-<li><p>Acquired skills in using Robot Operating System and Gazebo to simulate robots in complex real life environments </p>
-</li>
-<li><p>Reproduced the implementation of Simultaneous Localisation and Mapping (SLAM) algorithms using <br/>  Light
-Detection & Ranging (LiDAR) sensor to explore and map environments while navigating manually</p>
-</li>
-<li><p>Interfaced apt sensor with Quadrotor to use it for detection of certain gases present in indoor environments</p>
-</li>
-</ul>
-<h2>Technical Experience</h2>
--->
-
-
-<h2>Course Projects </h2>
-<p> Certain courses in my curriculum required me to complete a project extending over a month or so.<br/> These projects carry a 
-10%-20% weightage of the total credits for the course.</p>
-
-
-<h3>Controller Design of an Unmanned Aerial Vehicle | Adaptive Control Theory, Prof. Srikant Sukumar</h3>
-<ul>
-For the course on Adaptive Control Theory, our team of 3 studied the formulation of the adaptive backstepping method and<br/> 
-it's implementation to control the longitudinal flight dynamics (Flight Path Angle & Veloctiy) of a fixed wing UAV under the<br/> 
-constraint of thrust saturation as presented in the scientific paper by <a href"https://arc.aiaa.org/doi/pdf/10.2514/1.G000028"><i> F. Gavilan et. al., “Adaptive Control for Aircraft Longitudinal<br/>
-Dynamics with Thrust Saturation”, JOURNAL OF GUIDANCE, CONTROL, AND DYNAMICS Vol. 38, No. 4, April 2015</i></a>. 
-</ul>
-
 <h3>Mission Design for Atlas-Centaur SLV-3D rocket | Spaceflight Mechanics, Prof. Ashok Joshi </h3>
 <ul>
 The Einstein Observatory, HEAO-2, the first fully imaging X-Ray Telescope in space was launched on an Atlas-Centaur SLV-3D<br/>
@@ -227,7 +185,7 @@ booster rocket into a near-circular orbit. For the course on Spaceflight Mechani
 the launch and maneuver trajectories of the rocket and orbital decay of the satellite after the mission. 
 </ul>
 
-<h3>Analysis of Mechanical Properties of Bones | Mechanics of Materials, Prof. Aparna Singh</u></a></h3>
+<h3>Analysis of Mechanical Properties of Bones | Mechanics of Materials, Prof. Aparna Singh</h3>
 <ul>
 The course on Mechanical Properties of Materials required us to study the behavior of bones under forces such as tensile & sheer stresses,<br/>
 compression & fatigue. It involved the examination of properties of bones due to their material composition and mechanical structure.
